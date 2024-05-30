@@ -1,16 +1,55 @@
-# Restaurant Review's Sentiment Analysis - Deployment
-![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![NLTK](https://img.shields.io/badge/Library-NLTK-orange.svg)
+<div align="center">
+<img src="https://i.ibb.co/ZYKT2bk/Screenshot-2024-05-23-174330.png" alt="Screenshot-2024-05-23-174330" border="0">
+</div>  
+  
 
-• This repository consists of files required to deploy a ___Machine Learning Web App___ created with ___Flask___.
 
 
-• If you are searching for __Code__, __Algorithms used__ and __Accuracy__ of the model.. you won't find it here. Click the link mentioned below for the same:<br />
-Link: (https://github.com/19karim/Sentiment-Analysis-Restaurant-Review)
+### Restaurant Review's Sentiment Analyzer  
+### The Restaurant Review Sentiment Analyzer is a web application designed to analyze the sentiment of customer reviews for restaurants. The application preprocesses the reviews using the Natural Language Toolkit (nltk) and employs various machine learning algorithms to classify the sentiment of the reviews. The user interface is built using Flask, a lightweight web framework for Python.  
+  
 
-• Please do ⭐ the repository, if it helped you in anyway.
 
-_**----- Important Note -----**_<br />
-• If you encounter this webapp as shown in the picture given below, it is occuring just because **free dynos for this particular month provided by Heroku have been completely used.** _You can access the webpage on 1st of the next month._<br />
-• Sorry for the inconvenience.
 
-![Heroku-Error](readme_resources/application-error-heroku.png)
+### Features  
+- Data Preprocessing: Cleaning, tokenization, lemmatization, and more using nltk.
+  
+  
+
+- Sentiment Analysis: Classification of reviews into positive, negative, or neutral sentiments.
+  
+  
+
+- Machine Learning Models: Various classification algorithms tested to build an accurate sentiment analysis model.
+  
+  
+
+- User-Friendly Interface: Easy-to-use web interface to input and analyze reviews.  
+  
+
+
+
+### Model Building  
+- Various machine learning algorithms were tested to classify the sentiment of the reviews. The following classifiers were evaluated:  
+  
+
+- Logistic Regression,
+Support Vector Machines (SVM),
+Naive Bayes,
+Random Forest,
+Gradient Boosting  
+  
+
+- The model with the best performance was selected for the final deployment. The models were trained and tested using a labeled dataset of restaurant reviews.  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+<br/>  
