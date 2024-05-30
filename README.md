@@ -45,7 +45,9 @@ Gradient Boosting
 
   
   
-
+### Usage  
+After starting the Flask server, open your web browser and navigate to http://127.0.0.1:5000. You will see a user interface where you can input restaurant reviews and get their sentiment analysis.  
+  
   
   
 
